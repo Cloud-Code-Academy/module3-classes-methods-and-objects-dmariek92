@@ -431,7 +431,7 @@ public with sharing class ClassesObjectsMethods {
      */
     public static Person getOlderPerson(Person person1, Person person2) {
         if(person1.age == person2.age){
-            return person1;
+            return person2;
         }
         else if(person1.age > person2.age){
             return person1;
